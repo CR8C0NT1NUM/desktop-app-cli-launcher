@@ -74,7 +74,7 @@ Until this lands on npm: copy `launcher.js` into your Electron main process. ~90
 
 ## The story
 
-A longer write-up walks through the live incident — a packaged app stuck on "waiting for dashboard…", finding the log in the wrong `/tmp`, the `command not found: uv`, and the `env -i` reproduction. Forthcoming in the Build-in-Public series; link will land here when published.
+📖 **[My app worked perfectly — until I double-clicked it](./WRITEUP.md)** — the full write-up: the spinning splash, finding the log in the wrong `/tmp`, the `command not found: uv`, the `~/.zshrc`-vs-`~/.zprofile` trap, and the `env -i` reproduction.
 
 ## License
 
